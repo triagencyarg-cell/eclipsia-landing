@@ -1,0 +1,15 @@
+{
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/catalogo.pdf",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" },
+        { "key": "Content-Disposition", "value": "inline; filename=\"Eclipsia-catalogo.pdf\"" }
+      ]
+    }
+  ],
+  "redirects": [
+    { "source": "/catalogo", "destination": "/catalogo.pdf", "permanent": false }
+  ]
+}
