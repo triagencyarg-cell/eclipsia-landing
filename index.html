@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eclipsia</title>
+<meta name="description" content="Eclipsia — moda circular.">
+<meta property="og:title" content="Eclipsia">
+<meta property="og:description" content="Moda circular. ¿Querés vender tu ropa?">
+<meta property="og:image" content="/assets/logo-jacarta.png">
+<link rel="icon" href="/assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Raleway:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--jacarta:#3F2A52;--dolphin:#655A7C;--wisteria:#BEAEDB;--amethyst:#AB92BF;--linen:#FDF1E2}
+  *{box-sizing:border-box;margin:0}
+  html,body{height:100%}
+  body{background:var(--jacarta);color:var(--linen);font-family:"Raleway",system-ui,sans-serif;
+    display:flex;align-items:center;justify-content:center;padding:32px 20px;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+  body::before{content:"";position:fixed;left:50%;top:42%;width:min(560px,130vw);aspect-ratio:1;border-radius:50%;
+    transform:translate(-50%,-50%);background:radial-gradient(circle at 62% 40%,var(--jacarta) 0 47%,transparent 48%),radial-gradient(circle,var(--wisteria) 0 50%,transparent 51%);opacity:.16;pointer-events:none}
+  main{position:relative;width:100%;max-width:420px;text-align:center}
+  .logo{width:100%;max-width:340px;height:auto;display:block;margin:0 auto 18px}
+  .tag{font-family:"Chewy",system-ui,sans-serif;color:var(--wisteria);font-size:22px;margin-bottom:44px}
+  .links{display:flex;flex-direction:column;gap:14px}
+  .link{display:block;text-decoration:none;font-weight:600;font-size:16px;padding:18px 24px;border-radius:999px;transition:transform .15s,background .15s,color .15s}
+  .link:hover{transform:translateY(-2px)}
+  .primary{background:var(--linen);color:var(--jacarta)}
+  .primary:hover{background:var(--wisteria)}
+  .ghost{border:1.5px solid var(--wisteria);color:var(--linen)}
+  .ghost:hover{background:var(--wisteria);color:var(--jacarta)}
+  .ghost small{display:block;font-weight:500;font-size:13px;opacity:.8;margin-top:2px}
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="/assets/logo-linen.png" alt="Eclipsia">
+  <p class="tag">moda circular ✦ ropa con otra vida</p>
+  <div class="links">
+    <a class="link primary" href="https://instagram.com/eclipsia.store" target="_blank" rel="noopener">Instagram · @eclipsia.store</a>
+    <a class="link ghost" href="https://ig.me/m/eclipsia.store" target="_blank" rel="noopener">¿Querés vender tu ropa?<small>Mandanos un DM</small></a>
+  </div>
+</main>
+</body>
+</html>
